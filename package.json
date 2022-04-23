@@ -1,6 +1,6 @@
 {
   "name": "qyours-front",
-  "version": "0.10.15",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@carbon/icons-react": "^10.30.0",
