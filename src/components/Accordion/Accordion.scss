@@ -1,0 +1,30 @@
+
+$accordion-icon-color: #FAFAFC;
+
+// 버튼이 collapse 되지 않은 경우를 선택함
+.accordion-button:not(.collapsed) {
+  color: black;
+  background: #FAFAFC;
+  font-weight: bold;
+  height: 70px;
+}
+
+.accordion-button {
+  color: black;
+  background: #FAFAFC;
+  font-weight: bold;
+  height: 70px;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+.accordion-button::after {
+  background-image: none;
+}
+
+.accordion-body {
+  padding: 32px;
+}

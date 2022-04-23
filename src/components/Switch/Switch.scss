@@ -1,0 +1,48 @@
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 1em;
+  background-color: $gray-300;
+  border-radius: 0.5em;
+  transition: background-color 300ms;
+  vertical-align: middle;
+  cursor: pointer;
+
+  input {
+    visibility: hidden;
+  }
+
+  input:focus + &__slider {
+    box-shadow: 0 0 1px $gray-500;
+  }
+
+  &__slider {
+    position: absolute;
+    display: inline-block;
+    top: 0.1em;
+    left: 0.1em;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: $white;
+    border-radius: 50%;
+    transition: 300ms;
+  }
+
+  &--on {
+    background-color: $primary;
+  }
+
+  &--on &__slider {
+    left: 1.1em;
+  }
+
+  &--disabled {
+    background-color: $gray-400;
+
+    &.switch--on {
+      background-color: $gray-600;
+    }
+  }
+}

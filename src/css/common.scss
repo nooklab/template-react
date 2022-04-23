@@ -1,0 +1,98 @@
+
+
+
+.btn-bl-primary {
+  color: #FFFFFF;
+  background-color: #23E36E;
+}
+
+.btn-bl-primary:hover {
+  color: #FFFFFF;
+  background-color: #23E36E;
+}
+
+
+
+
+.label-star {
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  color: #ED4A34;
+  margin-right: 0.3rem;
+
+  vertical-align: middle;
+}
+
+a {
+  color: $primary;
+}
+
+
+.text-bl-primary {
+  color: #23E36E;
+}
+
+
+.btn-naver {
+  color: #fff;
+
+  background-color: #19DE66;
+  //box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.06);
+  //font-weight: bold;
+  //font-size: 33px;
+  //letter-spacing: 0.05em;
+  //border-radius: 0px 0px 24px 24px;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+
+.btn-my-outline-primary {
+  color: $primary;
+  background-color: white;
+  border-color: $primary;
+
+  &:hover {
+    color: white;
+    background-color: $primary;
+  }
+
+  .btn-check:checked + &,
+  .btn-check:active + &,
+  &:active,
+  &.active,
+  &.dropdown-toggle.show {
+    //color: $active-color;
+    //background-color: $active-background;
+    //border-color: $active-border;
+    color: white;
+    background-color: $primary;
+
+    &:focus {
+      @if $enable-shadows {
+        //@include box-shadow($btn-active-box-shadow, 0 0 0 $btn-focus-width rgba($color, .5));
+      } @else {
+        // Avoid using mixin so we can pass custom focus shadow properly
+        box-shadow: 0 0 0 3 rgba($primary, .5);
+      }
+    }
+  }
+}
+
+//.btn-my-outline-primary:hover {
+//  color: white;
+//  background-color: $primary;
+//}
+
+//.btn-my-outline-primary:checked + label {
+//  color: white;
+//  background-color: $primary;
+//}
+
+

@@ -1,0 +1,34 @@
+
+.icon-label { 
+  display: inline;
+  white-space: nowrap;
+
+  &__icon {
+    position: relative;
+    display: inline-block;
+    min-width: 1em;
+    text-align: center;
+
+    span, svg {
+      vertical-align: middle;
+    }
+  }
+
+  &__label {
+    vertical-align: middle;
+  }
+
+  &__label:not(.icon-label__label--empty) {
+    margin-left: $spacer / 2;
+  }
+
+  svg {
+    fill: currentColor;
+  }
+
+  &--reversed {
+    .icon-label__label:not(.icon-label__label--empty) {
+      margin-right: $spacer / 2;
+    }
+  }
+}

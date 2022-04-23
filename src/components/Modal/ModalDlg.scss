@@ -1,0 +1,27 @@
+.dlg-naver-button {
+  color: #fff;
+  background-color: #19DE66;
+  &:hover {
+    color: #fff;
+  }
+  &:focus {
+    color: #fff;
+  }
+}
+
+.dlg-cancel-button {
+  color: #fff;
+  background-color: #5C5C5C;
+  border-color: black;
+  &:hover {
+    color: #fff;
+    background-color: #5C5C5C;
+    border-color: black;
+  }
+  &:focus {
+    color: #fff;
+    background-color: #5C5C5C;
+    border-color: black;
+  }
+}
+

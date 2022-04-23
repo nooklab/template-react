@@ -1,0 +1,49 @@
+
+.home {
+  font-family: Spoqa Han Sans Neo;
+  letter-spacing: -0.04em;
+    //padding-bottom: 3em;
+    //color: $gray-600;
+    //background-color: $gray-800;
+
+  &__section {
+    margin-top: 150px;
+
+    //&__row_1 {
+    //  margin-bottom: 20px;
+    //}
+    //
+    //&__row_2 {
+    //  margin-bottom: 40px;
+    //}
+  }
+
+
+  &__font_big {
+    margin-bottom: 20px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.04em;
+    color: #000000;
+  }
+
+  &__font_mid {
+    margin-bottom: 40px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #5C5C5C;
+  }
+}

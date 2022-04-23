@@ -1,0 +1,387 @@
+{
+    "translation": {
+        "brand": "Q-Yours",
+        "validation": {
+            "required": "필수입력입니다.",
+            "email": "올바른 이메일 형식을 사용하세요.",
+            "phone": "올바른 연락처를 작성해 주세요.",
+            "agree": "필수 동의 항목 입니다.",
+            "url": "올바른 URL을 입력하세요.",
+            "uniqueId": "이미 존재하는 아이디입니다.",
+            "uniqueNickname": "사용할 수 없는 닉네임입니다.",
+            "userId": "4자 이상 25자 이하의 영문 소문자와 숫자 조합이어야 합니다.",
+            "password": "영문/숫자 포함 6자 이상으로 사용하세요.",
+            "passwordConfirm": "비밀번호가 일치하지 않습니다.",
+            "nickname": "2자 이상 25자 이하의 숫자, 밑줄(_), 영문 대소문자 및 한글 조합이어야 합니다.",
+            "maxLines": "{{max}}줄 이하의 내용을 입력하세요.",
+            "numberMin": "{{min}} 이상의 값을 입력하세요.",
+            "numberMax": "{{max}} 이하의 값을 입력하세요.",
+            "company": "기업명을 입력해 주세요",
+            "manager": "담당자명을 입력해 주세요"
+        },
+        "error": {
+            "unknownError": "알 수 없는 에러가 발생했습니다.",
+            "invalidParameter": "잘못된 인수가 전달되었습니다.",
+            "tokenRevoked": "현재 세션이 종료되었습니다. 다시 로그인해주세요.",
+            "notAuthorized": "접속 권한이 없습니다.",
+            "noFirebaseUser": "파이어베이스와 연동되지 않았습니다.",
+            "invalidToken": "이용정지된 계정입니다.",
+            "authCheck": "로그인이 필요합니다.",
+            "userNotFound": "없는 사용자입니다.",
+            "agencyNotFound": "에이전시가 존재하지 않습니다.",
+            "credentialRequired": "이메일과 비밀번호가 필요합니다.",
+            "alreadyBlockedUser": "이미 차단된 사용자입니다.",
+            "alreadyCertifiedUser": "이미 회원 가입한 계정이 있는 사용자입니다. 가입한 계정으로 로그인 해주세요!",
+            "notEnoughPoint": "포인트가 부족합니다.",
+            "invalidPointValue": "잘못된 값을 입력하였습니다.",
+            "notPurchasable": "살 수 없는 상품입니다.",
+            "monthlyPaymentLimitOver": "한달 현금 구매 한도 금액을 초과하였습니다.\n금월에는 더 이상 현금 구매를 하실 수 없습니다.\n\n현재까지 현금 구매액: {{monthlyCashPayment}}원",
+            "dailyLossLimitOver": "일일 최대 포인트 소진량을 초과하여 금일 서비스 접속이 제한됩니다.",
+            "scriptNotLoaded": "스크립트가 로딩되지 않았습니다.",
+            "chat": {
+                "noMessage": "메시지를 입력하세요.",
+                "banned": "강퇴당한 사용자입니다.",
+                "followerOnly": "팔로워 전용 채팅 입니다.",
+                "followerDelay": "팔로워가 된 후 1시간이 지나야 채팅이 가능합니다.",
+                "freezed": "방 얼음 상태에서는 매니저만 채팅이 가능합니다.",
+                "noMainRoom": "접속한 채팅방이 없습니다.",
+                "noStreamerLoaded": "접속한 채널이 없습니다.",
+                "notInChatRoom": "채팅에 접속해있지 않습니다."
+            },
+            "firebase": {
+                "auth/email-already-in-use": "이미 사용하고 있는 이메일 아이디입니다.",
+                "auth/requires-recent-login": "재 로그인이 필요합니다.",
+                "auth/invalid-email": "잘못된 이메일입니다.",
+                "auth/weak-password": "더 복잡한 비밀번호를 설정해주세요.",
+                "auth/user-not-found": "없는 사용자 입니다.",
+                "auth/user-disabled": "탈퇴하였거나 사용중지된 사용자입니다.",
+                "auth/wrong-password": "아이디나 비밀번호를 다시 확인해주세요.",
+                "auth/popup-blocked": "팝업을 열 수 없습니다.",
+                "auth/popup-closed-by-user": "팝업이 닫혔습니다.",
+                "auth/too-many-requests": "너무 많은 요청으로 접속이 막혀있습니다. 나중에 다시 시도해주세요."
+            }
+        },
+        "footer": {
+            "about": "회사소개",
+            "term": "이용약관",
+            "privacy": "개인정보처리방침",
+            "protection": "청소년보호정책",
+            "noEmail": "이메일 주소 무단수집거부",
+            "contact": "제휴 안내",
+            "customer": "고객센터"
+        },
+        "NotLoggedInMenu": {
+            "logIn": "로그인",
+            "question": "문의하기"
+        },
+        "LoggedInMenu": {
+            "logOut": "로그아웃",
+            "profileSettings": "설정",
+            "inventory": "소지품 관리"
+        },
+        "TopNavView": {
+            "home": "홈",
+            "svc-info": "서비스 소개",
+            "new-campaign": "캠페인 신청",
+            "activity": "블로그 활동",
+            "more": {
+                "developer": "개발자",
+                "policy": "약관"
+            }
+        },
+        "LoginModal": {
+            "title": "YYYY 로그인"
+        },
+        "LoginForm": {
+            "google": "Google 연결",
+            "kakao": "카카오 계정 연결",
+            "username": "아이디",
+            "password": "비밀번호",
+            "submit": "로그인",
+            "keep": "로그인 유지",
+            "help": "비밀번호를 잊으셨나요?",
+            "blogger": "블로거",
+            "advertiser": "광고주"
+        },
+        "RegisterForm": {
+            "google": "Google 연결",
+            "kakao": "카카오 계정 연결",
+            "username": "아이디",
+            "password": "비밀번호",
+            "passwordConfirm": "비밀번호 확인",
+            "naverId": "네이버 아이디",
+            "pushNotice": "공지사항 알림",
+            "pushCampaign": "캠페인 알림",
+            "receiveEmail": "메일 수신 여부",
+            "appPush": "앱 푸시 허용 여부",
+            "company": "기업명",
+            "manager": "담당자명",
+            "managerEmail": "담당자 이메일",
+            "managerPhone": "담당자 연락처",
+            "managerPhoneAuth": "인증 요청",
+            "gender": "성별",
+            "name": "아이디",
+            "agreement": "회원으로 가입하시면 <1>서비스 약관</1>과 <3>개인정보 정책</3>을 읽고 동의한 것으로 간주됩니다.",
+            "submit": "회원가입",
+            "registerSuccess": "회원가입이 완료되었습니다.",
+            "privacy": "개인정보보호정책",
+            "policy": "이용약관",
+            "placeholder": {
+                "username": "아이디로 사용할 이메일 주소",
+                "password": "6-20 자리의 비밀번호",
+                "passwordConfirm": "비밀번호 확인",
+                "naverId": "연결할 네이버 아이디",
+                "company": "예) 블로그링크",
+                "manager": "담당자 성함입력",
+                "managerEmail": "예) wow@naver.com",
+                "managerPhone": "숫자만 입력"
+            },
+            "agreementUsage": "[필수] 이용약관 및 개인정보 처리방침 동의",
+            "agreementMarketing": "[선택] 마케팅 수신 동의 항목 추가"
+        },
+        "SendPasswordResetForm": {
+            "email": "비밀번호 초기화로 사용할 이메일을 입력해 주세요",
+            "submit": "비밀번호 재설정 이메일 보내기",
+            "emailSent": "비밀번호 재설정 이메일이 전송되었습니다. 이메일을 확인하여 비밀번호를 재설정한 후 다시 로그인해주세요."
+        },
+        "RegisterNameForm": {
+            "title": "아이디 등록",
+            "help": "위 메일로 서비스에 가입합니다.\n서비스에서 사용할 아이디를 선택해주세요!",
+            "name": "아이디",
+            "submit": "가입",
+            "cancel": "취소",
+            "privacy": "개인정보보호정책",
+            "policy": "이용약관"
+        },
+        "Login": {
+            "tab": "로그인"
+        },
+        "Register": {
+            "tab-blogger": "블로거 회원가입",
+            "tab-advertiser": "광고주 회원가입"
+        },
+        "SectionDivider": {
+            "or": "또는"
+        },
+        "LiveTabMenu": {
+            "follower": "Follower",
+            "following": "Following",
+            "follow": "Follow",
+            "unfollow": "Following",
+            "notNotified": "알림",
+            "notified": "알림해제"
+        },
+        "PrivateChat": {
+            "messagePlaceholder": "메시지를 입력하세요"
+        },
+        "Settings": {
+            "menu": {
+                "settings": "설정",
+                "profile": "프로필",
+                "point": "포인트",
+                "private": "개인 설정",
+                "etc": "기타",
+                "resetPassword": "비밀번호 변경",
+                "unregister": "계정탈퇴"
+            }
+        },
+        "ProfileSettings": {
+            "title": "프로필",
+            "profileImage": "프로필 사진",
+            "profileBanner": "프로필 배너",
+            "profileImageHelp": "JPEG, PNG, GIF 중 하나여야 하며 10MB를 초과할 수 없습니다.",
+            "profileBannerHelp": "파일 형식: JPEG, PNG, GIF (1200x480, 최대 10MB 권장)",
+            "updated": "성공적으로 저장되었습니다."
+        },
+        "ImageInput": {
+            "update": "업데이트",
+            "add": "업로드",
+            "imageOnly": "이미지 파일만 업로드가 가능합니다.",
+            "notAccepted": "업로드할 수 없는 파일 형식입니다."
+        },
+        "ProfileBioForm": {
+            "nickname": "닉네임",
+            "bio": "자기소개",
+            "confirm": "변경저장"
+        },
+        "EmailInputForm": {
+            "title": "이메일 입력",
+            "help": "서비스와 연동할 이메일을 입력해주세요.",
+            "email": "이메일",
+            "confirm": "확인"
+        },
+        "EmailVerificationForm": {
+            "title": "이메일 인증",
+            "help": "사용자 이메일의 인증이 필요합니다.\n인증 메일을 전송하고, 메일함을 확인해주세요!!",
+            "sendEmailVerification": "인증 메일 전송",
+            "confirmHelp": "메일의 인증확인 후 아래 버튼을 클릭해주세요.",
+            "confirm": "인증확인"
+        },
+        "EmailVerification": {
+            "emailVerificationSent": "인증메일이 전송되었습니다.",
+            "notVerified": "인증오류:\n이메일({{email}})이 인증되지 않았습니다. 사용자의 이메일을 확인해주세요.\n* 이메일이 도착하지 않은 경우 인증 메일 전송 버튼을 눌러 메일을 전송해주세요.\n* 이메일은 네트워크 상황에 따라 몇번 정도 도착이 지연될 수 있습니다."
+        },
+        "CertificationForm": {
+            "title": "본인인증",
+            "help": "본인인증을 진행합니다. 본인인증창이 닫혔거나 오랜기간 열리지 않는 경우 아래 본인인증 재시도 버튼을 눌러주세요.",
+            "retry": "본인인증 재시도"
+        },
+        "Certification": {
+            "certificationExpired": "본인인증 기한이 지나 갱신하셔야 합니다.",
+            "notCertified": "본인인증이 필요합니다.",
+            "success": "본인인증에 성공하였습니다."
+        },
+        "Pagination": {
+            "pageInfo": "Page {{page}} of {{totalPage}}"
+        },
+        "UserAccount": {
+            "paymentHistory": "결제내역",
+            "purchaseList": "구매항목",
+            "useList": "사용항목",
+            "donatedItemList": "받은항목",
+            "inventory": "소지품",
+            "refundResultList": "환전 처리 결과",
+            "menu": {
+                "points": "포인트",
+                "paymentHistory": "결제내역",
+                "inventory": "소지품"
+            }
+        },
+        "campaign": {
+            "menu": {
+                "create": "생성",
+                "list": "목록",
+                "unit": "활동",
+                "manage": "관리"
+            },
+            "unit": {
+                "confirm": "확인",
+                "status": "상태",
+                "memo": "메모"
+            },
+            "keywordPlaceHolder": "키워드 입력",
+            "title": "캠페인 제목",
+            "basic": "캠페인 기본 정보",
+            "analysis": "빅데이터 분석",
+            "checkout": "캠페인 검수",
+            "apply": "신청",
+            "detail": "캠페인 상세 정보",
+            "startAt": "캠페인 시작일",
+            "endAt": "켐페인 종료일",
+            "totalBudget": "총 비용(원)",
+            "budget": "비용",
+            "price": "비용",
+            "rewardPrice": "성공 보수",
+            "point": "지급 포인트",
+            "rewardPoint": "성공시 추가 포인트",
+            "sponsor": "스폰서 비용",
+            "receivingAddress": "제품 받으실 주소",
+            "fields": {
+                "id": "Id",
+                "keywords": "분석 키워드",
+                "createdAt": "생성일",
+                "statusId": "상태",
+                "managerUid": "캠페인 담당자",
+                "name": "캠페인명",
+                "typeId": "캠페인유형",
+                "personnel": "모집인원",
+                "detail": {
+                    "keyword": {
+                        "list": ""
+                    },
+                    "product": {
+                        "brand": "브랜드",
+                        "categoryId": "캠페인 카테고리",
+                        "name": "제품군",
+                        "offer": "제공 제품명",
+                        "price": "제품 가격",
+                        "checkRandomDeliveryInfo": "제품 랜덤 발송 여부",
+
+                        "ph_checkRandomDeliveryInfo": "아래 예시를 참고하시어 제공하는 제품의\n기본 옵션에 대해 기입해 주세요.\n예1) 크림/브라운 컬러 중 랜덤 발송 예정\n예2) 고양이배변모래 6kg 2개 발송 예정",
+                        "randomDeliveryInfo": "제품 제공 기본 옵션",
+                        "checkOptionSelectInfo": "제품/색상 등 옵션 선택 가능 여부",
+                        "optionSelectInfo": "제품 옵션 선택 가능시 내용",
+                        "ph_optionSelectInfo": "블로거가 옵션 선택이 가능한 경우 선택\n가능한 옵션 정보를 기입해 주세요.\n예1) 사이즈 S/M/L 중 선택\n예2) 크림/브라운 중 선택",
+
+
+                        "posting": {
+                            "introduction": "제품 소개",
+                            "url": "제품 관련 URL(홈페이지등)",
+                            "needAdvUrl": "블로거 포스팅에 스토어 URL 삽입 여부",
+                            "advUrl": "블로거 포스팅에 삽입할 스토어 URL",
+                            "images": "대표이미지",
+                            "mission": "블로거 포스팅 미션"
+                        },
+                        "keyword": {
+                            "main": "대표키워드",
+                            "sub": "본문 키워드",
+                            "hashTag": "해시태그키워드"
+                        }
+                    },
+                    "delivery": {
+                        "address": "반품주소"
+                    },
+
+
+                    "place": {
+                        "name": "방문 장소명",
+                        "categoryId": "카테고리",
+                        "regionId": "방문 지역",
+                        "regionDetail": "방문 세부 지역",
+                        "sponsor": "제공 서비스",
+                        "sponsorPrice": "제공 서비스 가격",
+                        "posting": {
+                            "introduction": "장소 소개",
+                            "url": "네이버 플레이스 URL",
+                            "images": "대표 이미지",
+                            "mission": "블로거 포스팅 미션"
+                        },
+                        "keyword": {
+                            "main": "대표 키워드",
+                            "sub": "본문 키워드",
+                            "hashTag": "해시태그 키워드"
+                        }
+                    },
+                    "visit": {
+                        "availableDate": "방문가능 일정",
+                        "availableTime": "방문가능 시간",
+                        "address": "방문주소",
+                        "note": "예약시 참고사항"
+                    },
+                    "additional": {
+                        "company": "광고주 업체명",
+                        "cost": "캠페인 단가",
+                        "incentive": "상위노출 성공보수 단가",
+                        "guarantee": "캠페인 선지급 비용(VAT포함)",
+                        "depositDate": "입금일",
+                        "bill": "계산서"
+                    },
+                    "memo": "메모"
+                }
+            }
+        },
+        "CampaignDetail": {
+            "bloggers": "블로거 리스트",
+            "posts": "포스팅 리스트",
+            "result": "결과 리포트",
+            "cost": "비용",
+            "payment": "결제",
+            "tax": "세금계산서",
+            "highRank": "상위 노출 게시물",
+            "highRankPC": "PC",
+            "highRankMobile": "Mobile",
+            "highRankInfluencer": "Influencer"
+        },
+        "Activity": {
+            "menu": {
+                "list": "목록"
+            }
+        },
+        "AlertStore": {
+            "ok": "확인",
+            "yes": "예",
+            "no": "아니오",
+            "errorTitle": "에러"
+        }
+    }
+}

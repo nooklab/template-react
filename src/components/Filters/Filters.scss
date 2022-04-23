@@ -1,0 +1,115 @@
+
+.filter-group-container {
+  border-top: 2px solid #9EA4AA;
+  border-bottom: 2px solid #9EA4AA;
+  background: #FAFAFC;
+
+  padding: 20px;
+
+  .filter-item {
+    margin-right: 0.8em;
+  }
+
+  .filter-lg {
+    width: 420px;
+  }
+
+  .filter-md {
+    width: 320px;
+  }
+
+  .filter-md {
+    width: 240px;
+  }
+}
+
+
+//.search-filter-item {
+//  margin-right: 0.8em;
+//}
+
+////////////////////////////////////////////////
+
+
+.dropdown-filter {
+  .combo {
+    background-color: white;
+    text-align: left;
+    color: #9EA4AA;
+  }
+
+  .combo::after {
+    color: #9EA4AA;
+    text-align: right;
+    float: right;
+    display: inline-block;
+    line-height: 0.8em;
+    content: "\2304";
+  }
+
+  .list {
+
+  }
+
+  .item-check::after {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    display: inline-block;
+    content: "\2713";
+  }
+}
+
+
+
+//.dropdown-filter-combo {
+//  //width: 420px;
+//  background-color: white;
+//  text-align: left;
+//  color: #9EA4AA;
+//}
+//
+//.dropdown-filter-combo::after {
+//  color: #9EA4AA;
+//  text-align: right;
+//  float: right;
+//  display: inline-block;
+//  line-height: 0.8em;
+//  content: "\2304";
+//}
+//
+//.dropdown-filter-list {
+//  width: 420px;
+//}
+//
+//
+//.dropdown-item {
+//
+//}
+
+
+
+
+
+/////////////////////////////
+
+.filter-label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+//.select-filter {
+//  width: 420px;
+//  background-color: white;
+//  text-align: left;
+//  //color: #9EA4AA;
+//}
+
+.date-filter {
+  //width: 420px;
+  background-color: white;
+  text-align: left;
+  color: #9EA4AA;
+}

@@ -1,0 +1,56 @@
+.tag-select {
+  &__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.tag-input {
+  position: relative;
+
+  &__list {
+    width: 100%;
+
+    &__item {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      flex-direction: row;
+
+      &__title {
+        flex: 1;
+      }
+    }
+  }
+
+  &__tags {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+      display: inline-block;
+      margin: 0.5em 0.5em 0 0;
+      padding: $spacer / 4 $spacer / 2;
+      font-size: 14px;
+      background-color: $gray-100;
+      border-radius: $border-radius;
+
+      &__title {
+        color: $gray-600;
+      }
+
+      &__remove {
+        margin-left: $spacer / 4;
+        border: 0;
+        color: $gray-500;
+        transition: color 300ms;
+
+        &:hover {
+          color: $gray-400;
+        }
+      }
+    }
+  }
+}

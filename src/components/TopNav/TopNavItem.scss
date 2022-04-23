@@ -1,0 +1,22 @@
+
+.top-nav-item {
+  //display: inline-block;
+  margin: 0 15px;
+
+  & > button, & > a {
+    @include reset-input-style;
+  }
+
+  & > a {
+    //color: $gray-600;
+    color: $black-1;
+  }
+
+  &--active {
+    & > a {
+      //color: $dark;
+      color: $black-0;
+      font-weight: bold;
+    }
+  }
+}

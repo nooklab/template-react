@@ -1,0 +1,97 @@
+.tag-select {
+  &__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.radio-button {
+  &__group {
+    width: 100%;
+  }
+  &__item {
+    width: 100%;
+    margin-right: 10px;
+  }
+}
+
+
+//.has-icon .form-control {
+//  padding-right: 2.375rem;
+//}
+//
+//.has-icon .form-control-icon {
+//  position: absolute;
+//  z-index: 2;
+//  display: block;
+//  width: 2.375rem;
+//  height: 2.375rem;
+//  line-height: 2.375rem;
+//  justify-content: end;
+//  text-align: center;
+//  pointer-events: none;
+//  color: #aaa;
+//  right: 0px;
+//}
+
+.input-inside-right-icon {
+  position: absolute;
+  display: block;
+  right: 0px;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  color: #aaa;
+}
+
+
+.no-border {
+  //border-style: none !important;
+  border-left: none;
+  background-color: #efefef;
+}
+
+.formik-text-input {
+  &--help {
+    //font-family: 'Spoqa Han Sans Neo';
+    font-size: 12px;
+    margin-top: $spacer / 2;
+    color: #ED4A34;
+  }
+
+  //.help {
+  //  font-family: 'Spoqa Han Sans Neo';
+  //  color: #ED4A34;
+  //}
+}
+
+
+.fix-guide {
+  //color: #ED4A34 !important;
+  border-color: #19DE66;
+  resize: none;
+  background-color: #F7FEF9 !important;
+}
+
+
+
+.formik-image-input-thumb {
+  width: 180px;
+  height: 180px;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 3px;
+  //padding: 15px;
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+.formik-image-delete {
+  background-color: #23E36E !important;
+  border-radius: 0;
+  background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/></svg>") center/1em auto no-repeat;
+}
+
+

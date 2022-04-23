@@ -1,0 +1,21 @@
+
+.media-object {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  &__body {
+    flex: 1;
+    padding: 0 $spacer;
+    overflow: hidden;
+  }
+
+  &__header {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1em;
+  }
+}

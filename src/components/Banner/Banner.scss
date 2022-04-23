@@ -1,0 +1,13 @@
+.banner {
+  background: #F8FEFB;
+  //border-left: 2px solid #000000;
+  border-radius: 20px;
+
+  .img {
+    height: 100%;
+  }
+
+  &__medium {
+    height: 180px;
+  }
+}

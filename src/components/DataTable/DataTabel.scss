@@ -1,0 +1,38 @@
+@import '../../css/_theme';
+
+.table-header {
+
+  border-top: 2px solid #9EA4AA;
+  border-bottom: 1px solid #9EA4AA;
+  background: #FAFAFC;
+
+  height: 50px;
+  vertical-align: middle;
+
+  //display: flex;
+  //align-items: center;
+}
+
+.table-borderless > :not(caption) > * {
+  border-bottom: 1px solid #E8EBED;
+
+}
+
+.table-row {
+  height: 50px;
+}
+
+.table-result {
+  color: $primary;
+  height: 50px;
+  font-weight: bold;
+}
+
+
+.table-align-right {
+  text-align: right;
+}
+
+.table-align-center {
+  text-align: center;
+}

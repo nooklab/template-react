@@ -1,0 +1,43 @@
+
+.section-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: $spacer * 2 0;
+
+  &__line {
+    flex: 1;
+    height: 1px;
+    background-color: $gray-300;
+  }
+
+  &__label {
+    display: none;
+    margin: 0 $spacer;
+    color: $gray-600;
+  }
+}
+
+.slim-section-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: $spacer 0;
+
+  &__line {
+    flex: 1;
+    height: 1px;
+    background-color: $gray-300;
+  }
+
+  &__label {
+    display: none;
+    margin: 0 $spacer;
+    color: $gray-600;
+  }
+
+  .dark {
+    //border: 1px solid
+    background-color: #454C53;
+  }
+}

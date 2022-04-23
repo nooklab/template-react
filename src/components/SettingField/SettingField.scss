@@ -1,0 +1,38 @@
+
+.setting-field {
+  margin: $spacer * 2 0;
+
+  &__tight-content {
+    //margin-top: -20px;
+  }
+
+  &__label {
+    margin: $spacer 0;
+    font-weight: bold;
+    font-size: $font-size-base;
+  }
+
+  &__body {
+    padding: $spacer;
+    background-color: $white;
+    border: 1px solid $gray-200;
+    border-radius: $border-radius;
+  }
+
+  &__body2 {
+    padding: $spacer;
+    //background-color: $white;
+    border: 1px solid $gray-200;
+    border-radius: $border-radius;
+  }
+
+  &__error {
+    margin-top: $spacer / 2;
+    color: $danger;
+  }
+
+  &__help {
+    margin-top: $spacer / 2;
+    color: $gray-500;
+  }
+}

@@ -1,0 +1,151 @@
+
+// Font Settings
+//@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+//@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+//@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+//$font-family: "Noto Sans KR", "Noto Sans", "Segoe UI", Arial, sans-serif;
+* {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+//$font-family-sans-serif: $font-family;
+
+// Color Settings
+$gray-100: #f8f9fa;
+$gray-200: #eaecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #acb5bd;
+$gray-600: #6c757d;
+$gray-700: #485057;
+$gray-800: #343a40;
+$gray-900: #222528;
+
+$black: #000;
+$white: #fff;
+//$primary: #4527c5;
+//$primary: #23E36E;
+$primary: #19DE66;
+
+
+$secondary: $gray-300;
+//$dark: $gray-600;
+$dark: #000000;
+
+$info: #F8FEFB;
+$primary-light: #E9FDF2;
+$accent: #ef5285;
+
+// Border Settings
+$border-radius: 0.25em;
+$border-radius-lg: 0.8em;
+$border-radius-sm: 0.2em;
+
+// Grid Settings
+//$grid-breakpoints: (
+//  xs: 0,
+//  sm: 1024px,
+//  md: 1280px,
+//  lg: 1433px,
+//  xl: 1580px
+//);
+
+//$container-max-widths: (
+//  sm: 1140px,
+//  md: 1280px,
+//  lg: 1340px,
+//  xl: 1433px,
+//);
+
+//$grid-gutter-width: 24px;
+
+//.container {
+//  min-width: 1024px;
+//}
+
+// Link Settings
+$link-color: $gray-600;
+$link-hover-color: $gray-500;
+$link-hover-decoration: none;
+
+// Button Settings
+$btn-link-color: $gray-600;
+$btn-link-hover-color: $gray-500;
+
+//// Modal Settings
+//$modal-inner-padding: 2rem;
+////$modal-dialog-margin: 1rem * 2;
+//$modal-dialog-margin: 0.5rem;
+//$modal-footer-margin-between: .5rem;
+//$modal-content-border-radius: $border-radius;
+//$modal-content-border-width: 1px;
+//$modal-header-border-width: 1px;
+//$modal-backdrop-opacity: 0.6;
+//$modal-header-padding-y: 0;
+//$modal-header-padding-x: 0;
+
+// Input Settings
+$input-border-color: $gray-200;
+$input-disabled-bg: $gray-200;
+$input-placeholder-color: $gray-500;
+
+// Form Settings
+$form-feedback-icon-valid: '';
+$form-feedback-icon-invalid: '';
+
+
+//////////////////////////////////////
+// new color theme 2022
+
+$black-0: #000000;
+$black-1: #1B1D1F;
+$black-3: #9EA4AA;
+$black-4: #E8EBED;
+$black-5: #F3F3F5;
+
+$red-1: #ED4A34;
+
+$blue-1: #2083F7;
+
+$yellow-1: #e3d323;
+
+//////////////////////////////////
+
+
+.btn.btn-dark:disabled{
+  background-color: #E8EBED;
+  border-color: #E8EBED;
+}
+
+
+.input-valid {
+  border: 1px solid #19DE66 !important;
+}
+
+
+.color-primary {
+  color: $primary;
+}
+
+
+.color-red-1 {
+  color: $red-1
+}
+
+
+.color-red-2 {
+  color: #ED4A34;
+}
+
+.color-black-1 {
+  color: $black-1
+}
+
+//.color-black-2 {
+//  color: $black-2
+//}
+
+.color-black-3 {
+  color: $black-3
+}

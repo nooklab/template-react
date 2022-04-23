@@ -1,0 +1,18 @@
+.email-verify-container {
+
+  margin-top: 140px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.06);
+  padding: 60px;
+
+  .login {
+    color: #fff;
+    background-color: #19DE66;
+    font-size: 18px;
+  }
+
+  .resend {
+      color: #fff;
+      background-color: slategray;
+      font-size: 18px;
+  }
+}
